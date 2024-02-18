@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Image Slider</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="slider-container">
+    <div class="slider">
+      <div class="slide">
+        <img src="civic.png" alt="Honda Civic">
+        <div class="caption">Honda Civic</div>
+      </div>
+      <div class="slide">
+        <img src="skoda superb.png" alt="Skoda Superb">
+        <div class="caption-s">Skoda Superb</div>
+      </div>
+      <div class="slide">
+        <img src="polo.png" alt="VW Polo">
+        <div class="caption">VW Polo</div>
+      </div>
+    </div>
+ 
+  </div>
+  <button class="prev" onclick="prevSlide()">Prev</button>
+  <button class="next" onclick="nextSlide()">Next</button>
+  <button class="play-pause" onclick="toggleAutoPlay()">Pause</button>
+
+  <script src="script.js"></script>
+</body>
+</html>
